@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EAEF,gBAAgB,EAAC,6CAA4C;EAC7D,UAAU,EAAE,MAAM;CAErB",
+    "sources": [
+        "../clasetres.html/header.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}

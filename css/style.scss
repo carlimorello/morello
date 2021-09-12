@@ -1,0 +1,133 @@
+
+@import "header";
+@import "nav";
+@import "footer";
+@import "section";
+@import "container";
+
+        /*nosotros*/
+#nosotros{
+
+    .imgnosotros{
+         width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .texto{
+        font-family:'Josefin Sans', sans-serif; 
+        font-weight: bold;
+        padding: 40px;
+        margin: auto;
+        text-align: center;
+
+    }  
+} 
+/*contactanos*/
+#Contactanos{
+   
+    .imgarroba{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: right;
+       margin: auto;
+       
+    }
+    .contacto{
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+}
+/*servicios*/
+$box-width:200px;
+$box-heigth:150px;
+$box-bg-color:color rgb(104, 102, 102);
+
+@mixin cajas { 
+   background-color: $box-bg-color;
+    height: $box-heigth;
+    width: $box-width +100px;
+    border-radius: 5px;
+    margin-top: 50px; 
+    padding: 10PX;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold ;
+    border-style: solid;
+}
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 300px 300px 300px ;
+    justify-content: center;
+}
+ .caja1 
+    {
+     @include cajas;
+     margin-left: 50px;  
+    }
+    .caja1:hover{
+        box-shadow: black 8px 8px 8px;
+       }
+    .caja2  {
+        width: 300px;
+        height: 150px;
+        margin-top: 90px;
+        padding: -10px;
+    }
+    .caja2:hover{
+        box-shadow: black 8px 8px 8px;
+       }
+    .caja3 
+    {
+      @include cajas;
+        margin-right: 50px;
+       
+    }
+        .caja3:hover{
+            box-shadow: black 8px 8px 8px;
+        }
+   
+    .caja4{
+      
+        width: 300px;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 50px;
+        
+    }
+    .caja4:hover{
+        box-shadow: black 8px 8px 8px;
+       }
+    .caja5 
+    {
+      @include cajas;
+        margin-top: 50px;
+      
+    }
+    .caja5:hover{
+        box-shadow: black 8px 8px 8px;
+       }
+    .caja6 {
+        width: 300px;
+        height: 150px;
+        margin-top: 50px;
+        margin-right: 50px;
+      }
+    .caja6:hover{
+        box-shadow: black 8px 8px 8px;
+       }
+
+  
+      
+
+    
+  
+    
+/*media queries*/

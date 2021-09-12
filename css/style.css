@@ -1,0 +1,209 @@
+header {
+  background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(white), to(black));
+  background-image: linear-gradient(to left, black, white, black);
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 100%;
+}
+
+header .logo {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar a:hover {
+  -webkit-box-shadow: #8d8989 4px 4px;
+          box-shadow: #8d8989 4px 4px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+}
+
+footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90px;
+  height: 90px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .redes p {
+  margin: auto;
+}
+
+section {
+  background-color: #f2f2f7;
+  height: 100%;
+}
+
+/*nosotros*/
+#nosotros .imgnosotros {
+  width: 250px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+}
+
+#nosotros .texto {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+/*contactanos*/
+#Contactanos .imgarroba {
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin: auto;
+}
+
+#Contactanos .contacto {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/*servicios*/
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 300px 300px 300px;
+      grid-template-rows: 300px 300px 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.caja1 {
+  background-color: color #686666;
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 10PX;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  border-style: solid;
+  margin-left: 50px;
+}
+
+.caja1:hover {
+  -webkit-box-shadow: black 8px 8px 8px;
+          box-shadow: black 8px 8px 8px;
+}
+
+.caja2 {
+  width: 300px;
+  height: 150px;
+  margin-top: 90px;
+  padding: -10px;
+}
+
+.caja2:hover {
+  -webkit-box-shadow: black 8px 8px 8px;
+          box-shadow: black 8px 8px 8px;
+}
+
+.caja3 {
+  background-color: color #686666;
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 10PX;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  border-style: solid;
+  margin-right: 50px;
+}
+
+.caja3:hover {
+  -webkit-box-shadow: black 8px 8px 8px;
+          box-shadow: black 8px 8px 8px;
+}
+
+.caja4 {
+  width: 300px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.caja4:hover {
+  -webkit-box-shadow: black 8px 8px 8px;
+          box-shadow: black 8px 8px 8px;
+}
+
+.caja5 {
+  background-color: color #686666;
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 10PX;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  border-style: solid;
+  margin-top: 50px;
+}
+
+.caja5:hover {
+  -webkit-box-shadow: black 8px 8px 8px;
+          box-shadow: black 8px 8px 8px;
+}
+
+.caja6 {
+  width: 300px;
+  height: 150px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.caja6:hover {
+  -webkit-box-shadow: black 8px 8px 8px;
+          box-shadow: black 8px 8px 8px;
+}
+
+/*media queries*/
+/*# sourceMappingURL=style.css.map */
